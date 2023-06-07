@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Optimize>false</Optimize>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\body.png" />
+    <None Remove="Assets\cell.png" />
+    <None Remove="Assets\food.png" />
+    <None Remove="Assets\head.png" />
+    <None Remove="Assets\tail.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\body.png" />
+    <Resource Include="Assets\cell.png" />
+    <Resource Include="Assets\food.png" />
+    <Resource Include="Assets\head.png" />
+    <Resource Include="Assets\tail.png" />
+  </ItemGroup>
+
+</Project>
