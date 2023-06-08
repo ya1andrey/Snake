@@ -16,6 +16,9 @@
   <ItemGroup>
     <None Remove="Assets\body.png" />
     <None Remove="Assets\cell.png" />
+    <None Remove="Assets\deadbody.png" />
+    <None Remove="Assets\deadhead.png" />
+    <None Remove="Assets\deadtail.png" />
     <None Remove="Assets\food.png" />
     <None Remove="Assets\head.png" />
     <None Remove="Assets\tail.png" />
@@ -24,6 +27,9 @@
   <ItemGroup>
     <Resource Include="Assets\body.png" />
     <Resource Include="Assets\cell.png" />
+    <Resource Include="Assets\deadbody.png" />
+    <Resource Include="Assets\deadhead.png" />
+    <Resource Include="Assets\deadtail.png" />
     <Resource Include="Assets\food.png" />
     <Resource Include="Assets\head.png" />
     <Resource Include="Assets\tail.png" />
