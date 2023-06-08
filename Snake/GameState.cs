@@ -41,8 +41,22 @@ namespace Snake
         {
             for(int r=0; r<Rows; r++)
             {
+                for(int c=0; c<Cols; c++)
+                    if(Grid[r, c] == GridValue.Empty)
+                    {
+                        yield return new Position(r, c);
+                    }
+            }
+        }
 
+        private void AddFood()
+        {
+            List<Position> empty = new List<Position>(EmptyPositions());
+            if(empty==0)
+            {
+                return;
             }
         }
     }
 }
+ 
