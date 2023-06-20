@@ -19,6 +19,7 @@
     <None Remove="Assets\deadbody.png" />
     <None Remove="Assets\deadhead.png" />
     <None Remove="Assets\deadtail.png" />
+    <None Remove="Assets\DroidSansMono.ttf" />
     <None Remove="Assets\food.png" />
     <None Remove="Assets\head.png" />
     <None Remove="Assets\tail.png" />
@@ -30,6 +31,7 @@
     <Resource Include="Assets\deadbody.png" />
     <Resource Include="Assets\deadhead.png" />
     <Resource Include="Assets\deadtail.png" />
+    <Resource Include="Assets\DroidSansMono.ttf" />
     <Resource Include="Assets\food.png" />
     <Resource Include="Assets\head.png" />
     <Resource Include="Assets\tail.png" />
